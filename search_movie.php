@@ -28,7 +28,7 @@
             <tr> <th>ID:</th> <th>Title:</th> <th> Price:</th> <th>Year:</th> <th>Genre:</th> </tr>
     
         <?php
-        while ($stmt-> fetch())
+        while ($stmt-> fetc h())
         {
             echo "<tr>";
             echo "<td>".htmlentities($ID)."</td>";
